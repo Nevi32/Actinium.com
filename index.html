@@ -3,9 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Actiniumtech - Business Automation Solutions</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Empowering Businesses with Smart Automation Solutions</h1>
+            <p>Welcome to Actiniumtech, your partner in business automation. With a focus on leveraging cutting-edge technologies, we specialize in developing custom solutions to streamline operations, boost productivity, and drive growth for businesses of all sizes.</p>
+            <a href="#contact" class="cta-btn">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="store-management.jpg" alt="Store Management Systems">
+            <h3>Store Management Systems</h3>
+            <p>Revolutionize your retail business with our AI-powered store management systems.</p>
+        </div>
+        <div class="service">
+            <img src="automation-services.jpg" alt="Automation Services">
+            <h3>Automation Services</h3>
+            <p>Streamline your processes and increase efficiency with our automation solutions.</p>
+        </div>
+        <div class="service">
+            <img src="remote-server-administration.jpg" alt="Remote Server Administration">
+            <h3>Remote Server Administration</h3>
+            <p>Ensure smooth operations with our expert Linux server administration services.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"Actiniumtech transformed our business operations. Their solutions are top-notch and their team is highly professional."</p>
+            <span>- John Doe, CEO of ABC Company</span>
+        </div>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="latest-news">
+        <h2>Stay Informed with Our Latest Insights</h2>
+        <div class="news">
+            <h3>How Automation is Revolutionizing Retail</h3>
+            <p>Discover the latest trends and insights in retail automation.</p>
+        </div>
+        <!-- Add more news articles as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to automate your business? Contact us today for a free consultation!</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- JavaScript for smooth scrolling -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
+
