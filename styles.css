@@ -17,20 +17,20 @@ body {
 
 /* Navigation Bar */
 .navbar {
-    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
     color: #fff;
     padding: 15px 0;
+    z-index: 999;
 }
 
 .navbar .container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-}
-
-.logo h1 {
-    font-size: 24px;
-    text-transform: uppercase;
 }
 
 .menu ul {
@@ -38,13 +38,13 @@ body {
 }
 
 .menu ul li {
-    display: inline-block;
-    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .menu ul li a {
     text-decoration: none;
     color: #fff;
+    font-size: 18px;
 }
 
 /* Hero Section */
@@ -54,7 +54,7 @@ body {
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 .hero-content h2 {
