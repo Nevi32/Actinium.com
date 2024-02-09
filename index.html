@@ -7,79 +7,80 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>ACTINIUMTECH</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#technologies">Technologies</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero-content">
-            <h1>Empowering Businesses with Smart Automation Solutions</h1>
-            <p>Welcome to Actiniumtech, your partner in business automation. With a focus on leveraging cutting-edge technologies, we specialize in developing custom solutions to streamline operations, boost productivity, and drive growth for businesses of all sizes.</p>
-            <a href="#contact" class="cta-btn">Contact Us</a>
+            <h2>Welcome to Actiniumtech</h2>
+            <p>We specialize in business automation solutions to help your business grow.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Insert information about the company here.</p>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section class="services">
-        <h2>Our Services</h2>
-        <div class="service">
-            <img src="store-management.jpg" alt="Store Management Systems">
-            <h3>Store Management Systems</h3>
-            <p>Revolutionize your retail business with our AI-powered store management systems.</p>
-        </div>
-        <div class="service">
-            <img src="automation-services.jpg" alt="Automation Services">
-            <h3>Automation Services</h3>
-            <p>Streamline your processes and increase efficiency with our automation solutions.</p>
-        </div>
-        <div class="service">
-            <img src="remote-server-administration.jpg" alt="Remote Server Administration">
-            <h3>Remote Server Administration</h3>
-            <p>Ensure smooth operations with our expert Linux server administration services.</p>
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p>Insert information about services here.</p>
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <h2>What Our Clients Say</h2>
-        <div class="testimonial">
-            <p>"Actiniumtech transformed our business operations. Their solutions are top-notch and their team is highly professional."</p>
-            <span>- John Doe, CEO of ABC Company</span>
+    <!-- Technologies Section -->
+    <section class="technologies" id="technologies">
+        <div class="container">
+            <h2>Technologies</h2>
+            <p>Insert information about technologies here.</p>
         </div>
-        <!-- Add more testimonials as needed -->
     </section>
 
-    <!-- Latest News Section -->
-    <section class="latest-news">
-        <h2>Stay Informed with Our Latest Insights</h2>
-        <div class="news">
-            <h3>How Automation is Revolutionizing Retail</h3>
-            <p>Discover the latest trends and insights in retail automation.</p>
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <p>Insert information about projects here.</p>
         </div>
-        <!-- Add more news articles as needed -->
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>Ready to automate your business? Contact us today for a free consultation!</p>
-        <form action="#" method="post">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Insert contact information and form here.</p>
+        </div>
     </section>
 
-    <!-- JavaScript for smooth scrolling -->
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Actiniumtech. All rights reserved.</p>
+        </div>
+    </footer>
 
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
 </body>
 </html>
 
