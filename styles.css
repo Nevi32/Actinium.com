@@ -1,105 +1,31 @@
-/* Global Styles */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
 }
 
-/* Navigation Bar */
-.navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 15px 0;
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-.navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
 }
 
-.logo h1 {
-    font-size: 24px;
-    text-transform: uppercase;
+nav a:hover {
+  background-color: #ddd;
 }
 
-.menu ul {
-    list-style: none;
-}
-
-.menu ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* Hero Section */
 .hero {
-    background-image: url('tech-background.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.hero-content h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.hero-content p {
-    font-size: 18px;
-}
-
-/* About, Services, Technologies, Projects, and Contact Sections */
-.about,
-.services,
-.technologies,
-.projects,
-.contact {
-    padding: 100px 0;
-}
-
-.about h2,
-.services h2,
-.technologies h2,
-.projects h2,
-.contact h2 {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.about p,
-.services p,
-.technologies p,
-.projects p,
-.contact p {
-    font-size: 18px;
-}
-
-/* Footer Section */
-.footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.footer p {
-    font-size: 14px;
-}
+  text-align: center;
+  padding: 50px;
+  background-image:
+      
